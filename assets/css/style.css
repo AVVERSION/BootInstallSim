@@ -46,4 +46,30 @@ body{
 }
 #butdiv{
     text-align: center;
+    padding-bottom: 50px;
+}
+
+#logodiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo{
+  width: 5%;
+  height: 5%;
+  padding-right: 20px;
+}
+
+#foot{
+  background-color: rgb(31, 27, 27);
+  height: 175px;
+  border-radius: 10px;
+}
+#foot a {
+  color: white;
+  cursor: pointer;
+}
+#foot p{
+  padding: 20px;
 }
