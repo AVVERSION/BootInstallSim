@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #0f64ff;
+  align-items: center;
+  color: whitesmoke !important;
+}
+#backuptxt{
+    justify-content: center;
+    text-transform: capitalize;
+}
+/* #backuptxt h2{
+    font-size: 100px;
+    text-align: center;
+    text-transform: capitalize;
+}
+#backuptxt p{
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+} */
+
+#backupdiv{
+    padding-top: 250px;
+}
+
+#backup-btn{
+    width: 200px;
+    height: 125px;
+}
