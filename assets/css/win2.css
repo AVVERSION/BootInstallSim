@@ -92,3 +92,17 @@ body{
     content: "•";
     margin-right: 5px;
 }
+
+#start-btn, #cancel-btn{
+    border-radius: 3px;
+    border: 1px solid #000;
+}
+#start-btn{
+    cursor: pointer;
+}
+#start-btn:hover{
+    background-color: #ccc;
+}
+#cancel-btn{
+    cursor: not-allowed;
+}
