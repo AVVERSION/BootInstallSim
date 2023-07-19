@@ -12,7 +12,10 @@
     <link rel="stylesheet" href="../assets/css/win2.css" />
   </head>
   <body>
-    <div class="rufus"> <!--TODO: After done editing window, add hide class-->
+    <img id="win-iso" src="../assets/img/iso.png">
+    <p id="iso-text">Windows 11.iso</p>
+    <div class="rufus hide">
+      <!--TODO: After done editing window, add hide class-->
       <div class="window">
         <div class="titlebar">
           <h2>Bootable USB Window</h2>
@@ -27,7 +30,7 @@
           </ul>
           <h3>Boot selection</h3>
           <ul>
-            <li>Boot selection: <strong>Windows 11 ISO</strong></li>
+            <li>Boot selection: <strong>Windows 11.iso</strong></li>
             <li>Partition scheme: <strong>GPT</strong></li>
             <li>File system: <strong>NTFS</strong></li>
           </ul>
@@ -39,6 +42,7 @@
           </ul>
           <button id="start-btn">START</button>
           <button id="cancel-btn" disabled="disabled">CANCEL</button>
+          <button id="eject-btn" class="hide">EJECT</button>
         </div>
       </div>
     </div>
@@ -47,11 +51,9 @@
       <img src="../assets/img/explorer.png" />
       <img src="../assets/img/edge.png" />
       <img src="../assets/img/msstore.png" />
-      <a href="#" onclick="remhide()" id="rufusimg" ><img src="../assets/img/rufus.png" /></a>
+      <a href="#" onclick="remhide()" class="highlight"><img src="../assets/img/rufus.png"
+      /></a>
     </div>
-    <script>
-      const rufusDiv = document.querySelector(".rufus");
-      function remhide(){rufusDiv.classList.remove("hide");}
-    </script>
+    <script src="../assets/js/win2.js"></script>
   </body>
 </html>

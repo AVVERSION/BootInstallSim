@@ -21,7 +21,7 @@ body{
 .taskbar *{
     padding: 7px;
 }
-#rufusimg{
+.highlight{
     box-shadow: 0 0 3px 3px yellow;
 }
 .rufus {
@@ -105,4 +105,13 @@ body{
 }
 #cancel-btn{
     cursor: not-allowed;
+}
+#win-iso{
+    width: 70px;
+    height: 70px;
+}
+#iso-text{
+    font-size: 12px;
+    font-weight: bolder;
+    color: whitesmoke;
 }
