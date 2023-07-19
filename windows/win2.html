@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BootInstallSim - Windows</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/img/logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../assets/css/win2.css" />
+  </head>
+  <body>
+    <div class="rufus hide">
+      <div class="window">
+        <div class="titlebar">
+          <h2>Bootable USB Window</h2>
+          <button>&times;</button>
+        </div>
+        <div class="content">
+          <h3>Device</h3>
+          <ul>
+            <li>Device: <strong>USB Drive (8GB)</strong></li>
+            <li>File system: <strong>NTFS</strong></li>
+            <li>Cluster size: <strong>4096 bytes</strong></li>
+          </ul>
+          <h3>Boot selection</h3>
+          <ul>
+            <li>Boot selection: <strong>Windows 11 ISO</strong></li>
+            <li>Partition scheme: <strong>GPT</strong></li>
+            <li>File system: <strong>NTFS</strong></li>
+          </ul>
+          <h3>Format options</h3>
+          <ul>
+            <li>Quick format: <strong>Yes</strong></li>
+            <li>Volume Label: <strong>WIN_11_22H2_2023</strong></li>
+            <li>Create extended label and icon files: <strong>Yes</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="taskbar">
+      <img src="../assets/img/winlogo.png" />
+      <img src="../assets/img/explorer.png" />
+      <img src="../assets/img/edge.png" />
+      <img src="../assets/img/msstore.png" />
+      <a href="#" onclick="remhide()" id="rufusimg" ><img src="../assets/img/rufus.png" /></a>
+    </div>
+    <script>
+      const rufusDiv = document.querySelector(".rufus");
+      function remhide(){rufusDiv.classList.remove("hide");}
+    </script>
+  </body>
+</html>

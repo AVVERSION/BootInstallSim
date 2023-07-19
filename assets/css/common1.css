@@ -10,16 +10,16 @@ body {
     justify-content: center;
     text-transform: capitalize;
 }
-/* #backuptxt h2{
-    font-size: 100px;
+#text1{
+    font-size: 50px;
     text-align: center;
     text-transform: capitalize;
 }
-#backuptxt p{
-    font-size: 20px;
+#text2{
+    font-size: 25px;
     text-align: center;
     text-transform: capitalize;
-} */
+}
 
 #backupdiv{
     padding-top: 250px;
