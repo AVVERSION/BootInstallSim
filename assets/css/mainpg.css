@@ -75,6 +75,11 @@ body{
 #foot a {
   color: white;
   cursor: pointer;
+  text-decoration: none;
+}
+#foot a:hover{
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
 }
 #foot p{
   padding: 20px;
