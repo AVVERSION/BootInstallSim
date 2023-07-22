@@ -44,6 +44,13 @@ body{
     transition: all 0.3s ease-in-out;
     margin-right: 20px;
 }
+.btn:hover {
+  transform: translateY(-10px);
+}
+.btn:active{
+  transform: translateY(0px);
+}
+
 #butdiv{
     text-align: center;
     padding-bottom: 50px;
@@ -72,12 +79,12 @@ body{
   }
 }
 
-#foot a {
+.link {
   color: white;
   cursor: pointer;
   text-decoration: none;
 }
-#foot a:hover{
+.link:hover{
   color: rgb(255, 255, 255);
   text-decoration: underline;
 }
