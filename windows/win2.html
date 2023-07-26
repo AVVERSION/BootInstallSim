@@ -40,18 +40,23 @@
             <li>Volume Label: <strong>WIN_11_22H2_2023</strong></li>
             <li>Create extended label and icon files: <strong>Yes</strong></li>
           </ul>
-          <button id="start-btn">START</button>
-          <button id="cancel-btn" disabled="disabled">CANCEL</button>
-          <button id="eject-btn" class="hide">EJECT</button>
+          <button class="btn" id="start-btn">START</button>
+          <button class="btn" id="cancel-btn" disabled="disabled">CANCEL</button>
+          <button id="eject-btn" class="btn hide">EJECT</button>
         </div>
       </div>
     </div>
+    <div class="startMenu hide">
+      <!-- Bg color code 383838-->
+      <button class="btn" id="pwr"> <img src="../assets/img/power.png"> Power Off</button>
+      <button class="btn highlight hide" onclick="location.replace('win3.html')" id="restart"> <img src="../assets/img/restart.png"> Restart</button>
+    </div>
     <div class="taskbar">
-      <img src="../assets/img/winlogo.png" />
+      <img id="winbtn" src="../assets/img/winlogo.png" />
       <img src="../assets/img/explorer.png" />
       <img src="../assets/img/edge.png" />
       <img src="../assets/img/msstore.png" />
-      <a href="#" onclick="remhide()" class="highlight"><img src="../assets/img/rufus.png"
+      <a href="#" onclick="remhide()" id="rlog" class="highlight"><img src="../assets/img/rufus.png"
       /></a>
     </div>
     <script src="../assets/js/win2.js"></script>

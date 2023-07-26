@@ -1,6 +1,6 @@
 function remhide() {
     document.querySelector(".rufus").classList.remove("hide");
-    document.querySelector(".highlight").classList.remove("highlight")
+    document.querySelector("#rlog").classList.remove("highlight")
 }
 
 const progressBar = document.createElement("progress");
@@ -32,3 +32,18 @@ startButton.addEventListener("click", () => {
     }
   }, 300);
 });
+
+const ejectButton = document.querySelector("#eject-btn");
+ejectButton.addEventListener("click", () => {
+  document.querySelector(".rufus").classList.add("hide");
+  document.querySelector("#winbtn").classList.add("highlight");
+  progressBar.value = 0;
+  progressText.textContent = "0%";
+  ejectButton.classList.add("hide");
+})
+
+const winbtn = document.querySelector("#winbtn");
+winbtn.addEventListener("click", () => {
+  document.querySelector(".startMenu").classList.remove("hide");
+  winbtn.classList.remove("highlight");
+})
