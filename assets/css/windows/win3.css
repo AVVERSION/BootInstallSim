@@ -24,3 +24,6 @@ p{
     position: absolute;
     left: 39%;
 }
+.hide{
+  display: none;
+}
