@@ -1,0 +1,131 @@
+body{
+    background-color: #031c4e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+.window {
+    width: 600px;
+    height: 400px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.titlebar {
+    height: 30px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    user-select: none;
+}
+
+.titlebar h2 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 5px;
+}
+
+.titlebar button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.titlebar button:hover {
+    background-color: #aaa;
+}
+
+.content {
+    height: calc(100% - 30px);
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #031c4e;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.content p {
+    margin: 0;
+}
+
+.content h3 {
+    margin: 0 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.content li {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.content li:before {
+    content: "•";
+    margin-right: 5px;
+}
+
+#start-btn,
+#cancel-btn {
+    border-radius: 3px;
+    border: 1px solid #000;
+}
+
+#start-btn {
+    cursor: pointer;
+}
+
+#start-btn:hover {
+    background-color: #ccc;
+}
+
+#cancel-btn {
+    cursor: not-allowed;
+}
+
+#win-iso {
+    width: 70px;
+    height: 70px;
+}
+
+#iso-text {
+    font-size: 12px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.btn {
+    padding: 7px;
+    background: #181818;
+    color: #fff;
+    border: 1px solid #000;
+    outline: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+#eject-btn {
+    margin-left: 388px;
+}
+
+#winwhite{
+    padding-top: 40px;
+    padding-left: 210px;
+    padding-bottom: 80px;
+}
