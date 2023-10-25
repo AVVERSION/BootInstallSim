@@ -1,4 +1,5 @@
 # Hi! This is BootInstallSim, 
+# ![BootInstallSim Logo]("./assets/img/logo.png")
 ### A simple simulator which will take you through the steps of Installing different OSes.
 ### You get the option of choosing between Windows, Mac Os X and even Linux!
 ### Visit [BootInstallSim](https://avversion.github.io/BootInstallSim/)!
