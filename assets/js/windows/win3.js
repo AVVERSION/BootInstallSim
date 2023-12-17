@@ -10,6 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			document.querySelector("#winlogo").classList.add("hide");
 			document.querySelector("#loader").classList.add("hide");
 			document.querySelector("#bootselector").classList.remove("hide");
+			alert("The Boot Selector may not look the same in your computer, but it will work the same way. Use the Arrow Keys to Navigate and Enter to Select.");
+			alert("It can also be oriented in landscape instead of the portrait form here.")
 		}
 	});
 	const options = document.querySelectorAll(".option");

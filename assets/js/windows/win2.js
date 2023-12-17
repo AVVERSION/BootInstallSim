@@ -1,3 +1,6 @@
+window.onload = () => {
+  alert("The ISO file has already been installed in this Instance. You can install the ISO file from https://www.microsoft.com/software-download/");
+}
 function remhide() {
     document.querySelector(".rufus").classList.remove("hide");
     document.querySelector("#rlog").classList.remove("highlight")

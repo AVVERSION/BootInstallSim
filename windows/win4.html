@@ -1,70 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BootInstallSim - Windows</title>
-    <link rel="stylesheet" href="../assets/css/windows/win4.css">
-</head>
-<body>
-    <div class="window">
-        <div class="titlebar">
-          <img src="../assets/img/setup.png">
-          <h2>Windows Setup</h2>
-          <button>&times;</button>
-        </div>
-        <div class="content">
-            <img src="../assets/img/winwhite.png" id="winwhite">
-            <div class="optiontab">
-            <label for="lang">Languages To Install:&nbsp;&nbsp;</label>
-            <select name="lang" class="option" id="lang">
-                <option value="English US">English (United States)</option>
-                <option value="notactual">What more do you want!?</option>
-            </select>
-            <br>
-            <label for="timeCurrency">Languages To Install:&nbsp;&nbsp;</label>
-            <select name="timeCurrency" class="option" id="timeCurrency">
-                <option value="English US">English (United States)</option>
-                <option value="notactual">What more do you want!?</option>
-            </select>
-            <br>
-            <label for="keybd">Languages To Install:&nbsp;&nbsp;</label>
-            <select name="keybd" class="option" id="keybd">
-                <option value="US">US</option>
-                <option value="notactual">What more do you want!?</option>
-            </select>
-            <br>
-            <br>
-            <br>
-            <p class="infotext">Enter your language and other preferences and click "Next" to continue.</p>
-          </div>
-          <br>
-          <br>
-          <p class="copyright">&copy; AVVERSION Corporation. All rights reserved</p>
-          <!-- TODO: Fix button layout to be in the same line -->
-          <button class="next-btn">Click me</button>
-          <!-- <h3>Device</h3>
-          <ul>
-            <li>Device: <strong>USB Drive (8GB)</strong></li>
-            <li>File system: <strong>NTFS</strong></li>
-            <li>Cluster size: <strong>4096 bytes</strong></li>
-          </ul>
-          <h3>Boot selection</h3>
-          <ul>
-            <li>Boot selection: <strong>Windows 11.iso</strong></li>
-            <li>Partition scheme: <strong>GPT</strong></li>
-            <li>File system: <strong>NTFS</strong></li>
-          </ul>
-          <h3>Format options</h3>
-          <ul>
-            <li>Quick format: <strong>Yes</strong></li>
-            <li>Volume Label: <strong>WIN_11_22H2_2023</strong></li>
-            <li>Create extended label and icon files: <strong>Yes</strong></li>
-          </ul>
-          <button class="btn" id="start-btn">START</button>
-          <button class="btn" id="cancel-btn" disabled="disabled">CANCEL</button>
-          <button id="eject-btn" class="btn hide">EJECT</button> -->
-        </div>
-      </div>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>BootInstallSim - Windows</title>
+		<link rel="stylesheet" href="../assets/css/windows/win4.css" />
+	</head>
+	<body>
+		<div class="window">
+			<div class="titlebar">
+				<img src="../assets/img/setup.png" />
+				<h2>Windows Setup</h2>
+				<button>&times;</button>
+			</div>
+			<div class="content">
+				<img src="../assets/img/winwhite.png" id="winwhite" />
+				<div class="optiontab">
+					<label for="lang">Languages To Install:&nbsp;&nbsp;</label>
+					<select name="lang" class="option" id="lang">
+						<option value="English US">English (United States)</option>
+						<option value="notactual">What more do you want!?</option>
+					</select>
+					<br />
+					<label for="timeCurrency">Languages To Install:&nbsp;&nbsp;</label>
+					<select name="timeCurrency" class="option" id="timeCurrency">
+						<option value="English US">English (United States)</option>
+						<option value="notactual">What more do you want!?</option>
+					</select>
+					<br />
+					<label for="keybd">Languages To Install:&nbsp;&nbsp;</label>
+					<select name="keybd" class="option" id="keybd">
+						<option value="US">US</option>
+						<option value="notactual">What more do you want!?</option>
+					</select>
+					<br />
+					<br />
+					<br />
+					<p class="infotext">
+						Enter your language and other preferences and click "Next" to
+						continue.
+					</p>
+				</div>
+				<br />
+				<br />
+				<p class="copyright">
+					&copy; AVVERSION Corporation. All rights reserved
+				</p>
+				<!-- TODO: Fix button layout to be in the same line -->
+				<button
+					class="next-btn"
+					onclick="alert('The steps further ahead are quite simple and are designed according to one\'s needs.'); location.replace('/')"
+				>
+					Click me
+				</button>
+			</div>
+		</div>
+	</body>
 </html>
